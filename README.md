@@ -58,3 +58,5 @@ Finally, you can plot the obtained "safety regions" by calling:
 ```
 safetyReg.plot_safety_regions(output)
 ```
+# Example
+Examples of usage are provided in test.py
