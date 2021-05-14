@@ -25,8 +25,8 @@ Input parameters:
 - cond_format (Nf-dim list of int): 0 or 1, indicates the kind of perturbation (see below) 
 - flabels (list of strings) : labels of the features to be perturbed. 
 - results_file (csv): output file with error, coverage, TP, TN, FP, FN for all the perturbation values (Delta1,Delta2). 
-- method: method of the optimization algorithm: 'outside' or 'inside'. 
-- case ({1,2,3,4}): format of the pair of intervals to be perturbed;
+- method (string): method of the optimization algorithm: 'outside' or 'inside'. 
+- case (int in {1,2,3,4}): format of the pair of intervals to be perturbed;
 - optional: pos_class
 
 The software considers perturbations on single-threshold intervals for the 2 features (f1 and f2), that can have different formats. The information about this is needed by defining the case input variable as follows:
