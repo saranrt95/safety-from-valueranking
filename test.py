@@ -3,7 +3,7 @@ import safety_from_valueranking as sllm
 '''
 filename="platooning_test.xlsx"
 class_label='collision'
-Nf=2 # N.B. per ora non funziona con più di 2
+Nf=2 
 ths=[0.43, -7.50]
 fmin=[0.2, -8]
 fmax=[0.5, -1]
@@ -16,7 +16,7 @@ case=1
 '''
 filename="platooning_test.xlsx"
 class_label='collision'
-Nf=2 # N.B. per ora non funziona con più di 2
+Nf=2 
 ths=[0.33, -3.50]
 fmin=[0.2, -8]
 fmax=[0.5, -1]
@@ -42,7 +42,7 @@ case=3
 '''
 filename="MMH_test_set.xlsx"
 class_label='fatiguestate1'
-Nf=2 # N.B. per ora non funziona con più di 2
+Nf=2 
 ths=[0.03, -0.47]
 fmin=[-1.86, -1.16]
 fmax=[3.12, 3.99]
