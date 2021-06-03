@@ -66,6 +66,6 @@ safetyReg.plot_safety_regions(output)
 # Example
 Examples of usage are provided in test.py (by now, 'outside' method for physical fatigue data is selected, but you can deactivate comments from other test cases).
 
-## Usage for LLM 0%
+# Usage for LLM 0%
 
 Just run the scripts ("platooning-LLMzero.py", "fatigue_zeroerror.py") and the optimal solution will be printed.
