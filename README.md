@@ -1,11 +1,14 @@
 # safety-from-valueranking
-This repository contains the code and test examples described in the following paper: 
-[Narteni S., Ferretti M., Orani V., Vaccari I., Cambiaso E., Mongelli M. "From Explainable to Reliable Artificial Intelligence", CD-MAKE 2021 (MAKE-xAI 2021)] 
-for the individuation of "safety regions" from rule-based models (e.g. Logic Learning Machine) feature and value ranking. By now, the focus is on binary classification problems and the shape of the obtained region is bidimensional (code works for Nf=2).
+This repository contains the code and test examples described in the following paper (please cite if you use the code):
+
+Narteni S., Ferretti M., Orani V., Vaccari I., Cambiaso E., Mongelli M. "From Explainable to Reliable Artificial Intelligence", CD-MAKE 2021 (MAKE-xAI 2021)
+
+The aim is the individuation of "safety regions" from rule-based models (e.g. Logic Learning Machine) feature and value ranking. By now, the focus is on binary classification problems and the shape of the obtained region is bidimensional (code works for Nf=2).
 Two methods are available: 'outside' or 'inside'.
 The two most relevant intervals obtained from a rule-based model can be tuned by our perturbation methods to achieve bidimensional regions denoted by the highest True Negative Rate (Coverage) being the False Negative Rate (Error) as close to 0 as possible.
 
-# Usage
+In addition, LLM with 0% error can be used to look for more complex "safety regions" with higher dimensions (>3 features).
+# Usage for Outside and Inside Methods
 ```
 import safety_from_valueranking as sllm
 ```
@@ -62,3 +65,7 @@ safetyReg.plot_safety_regions(output)
 ```
 # Example
 Examples of usage are provided in test.py
+
+# Usage for LLM 0%
+
+Just run the scripts ("platooning-LLMzero.py", "fatigue_zeroerror.py") and the optimal solution will be printed.
