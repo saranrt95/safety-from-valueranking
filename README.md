@@ -1,5 +1,7 @@
 # safety-from-valueranking
-This repository contains the code and test example for the individuation of "safety regions" from rule-based models (e.g. Logic Learning Machine) feature and value ranking. By now, the focus is on binary classification problems and the shape of the obtained region is bidimensional (code works for Nf=2).
+This repository contains the code and test examples described in the following paper: 
+[Narteni S., Ferretti M., Orani V., Vaccari I., Cambiaso E., Mongelli M. "From Explainable to Reliable Artificial Intelligence", CD-MAKE 2021 (MAKE-xAI 2021)] 
+for the individuation of "safety regions" from rule-based models (e.g. Logic Learning Machine) feature and value ranking. By now, the focus is on binary classification problems and the shape of the obtained region is bidimensional (code works for Nf=2).
 Two methods are available: 'outside' or 'inside'.
 The two most relevant intervals obtained from a rule-based model can be tuned by our perturbation methods to achieve bidimensional regions denoted by the highest True Negative Rate (Coverage) being the False Negative Rate (Error) as close to 0 as possible.
 
