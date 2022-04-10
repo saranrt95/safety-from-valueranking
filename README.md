@@ -1,7 +1,11 @@
 # safety-from-valueranking
-This repository contains the code and test examples described in the following paper (please cite if you use the code):
+This repository contains the code and test examples described in the following papers (please cite if you use the code):
 
-Narteni S., Ferretti M., Orani V., Vaccari I., Cambiaso E., Mongelli M. "From Explainable to Reliable Artificial Intelligence", CD-MAKE 2021 (MAKE-xAI 2021)
+Narteni, S., Ferretti, M., Orani, V., Vaccari, I., Cambiaso, E., Mongelli, M. (2021). From Explainable to Reliable Artificial Intelligence. In: Holzinger, A., Kieseberg, P., Tjoa, A.M., Weippl, E. (eds) Machine Learning and Knowledge Extraction. CD-MAKE 2021. Lecture Notes in Computer Science(), vol 12844. Springer, Cham. https://doi.org/10.1007/978-3-030-84060-0_17 [Skope-Rules tests have been presented only in this conference paper];
+
+S. Narteni, V. Orani, I. Vaccari, E. Cambiaso and M. Mongelli, "Sensitivity of Logic Learning Machine for reliability in safety-critical systems," in IEEE Intelligent Systems, doi: 10.1109/MIS.2022.3159098.
+
+
 
 The aim is the individuation of "safety regions" from rule-based models (e.g. Logic Learning Machine) feature and value ranking. By now, the focus is on binary classification problems and the shape of the obtained region is bidimensional (code works for Nf=2).
 Two methods are available: 'outside' or 'inside'.
