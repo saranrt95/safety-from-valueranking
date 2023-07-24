@@ -14,7 +14,9 @@ When working in two dimensions, the two most relevant intervals obtained from a 
 In addition, LLM with 0% error can be used to look for more complex "safety regions" with higher dimensions (>3 features).
 # Usage for Outside and Inside Methods
 
-To reproduce the experiments of the papers or use the methods for your own, just set the required inputs in the `config.py' file. Then, just run `main.py' and the results will be automatically generated.
+To reproduce the experiments of the papers or use the methods for your own, just set the required inputs in the `config.py' file. 
+
+Then, just run `main.py' and the results will be automatically generated.
 
 
 # Usage for LLM 0% and Skope-Rules
